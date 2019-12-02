@@ -31,8 +31,8 @@ class UsersTableSeeder extends Seeder
 
         $data[] = [
             'id'         => 1,
-            'name'       => 'fantasy',
-            'email'      => '1032744691@qq.com',
+            'name'       => 'test',
+            'email'      => 'test@qq.com',
             'created_at' => \Carbon\Carbon::now(),
             'password'   => bcrypt('123456789'),
         ];

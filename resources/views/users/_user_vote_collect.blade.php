@@ -58,13 +58,6 @@
                                 </div>
                             </div>
                         </div>
-
-{{--                        <div class="item-meta">--}}
-{{--                            <a class="ui label basic light grey" href="https://learnku.com/articles/36590"><i--}}
-{{--                                    class="thumbs up icon"></i> 27 </a>--}}
-{{--                            <a class="ui label basic light grey" href="https://learnku.com/articles/36590"><i--}}
-{{--                                    class="comment icon"></i> 47 </a>--}}
-{{--                        </div>--}}
                     </div>
                 @endforeach
             @endif

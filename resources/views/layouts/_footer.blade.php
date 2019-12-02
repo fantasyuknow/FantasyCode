@@ -8,7 +8,7 @@
         </div>
       </div>
       <div class="four wide column">
-        <h4 class="ui inverted header">资源推荐</h4>
+        <h4 class="ui inverted header">倾情推荐</h4>
         <div class="ui inverted link list text-mute">
           暂无内容~~
         </div>
@@ -25,8 +25,7 @@
       <div class="four wide column">
         <h4 class="ui inverted header">其他信息</h4>
         <div class="ui inverted link list">
-          <li><a class="item" href=""><i class="icon wechat" aria-hidden="true"></i> 联系站长</a></li>
-          <li><a class="item" href="mailto:'1032744691@qq.com'"><i class="icon envelope" aria-hidden="true"></i> 联系我们</a></li>
+          <li><a class="item" href="mailto:'1032744691@qq.com'"><i class="icon envelope" aria-hidden="true"></i> 联系我</a></li>
         </div>
       </div>
 
@@ -36,7 +35,7 @@
     <div>
 
       <p style="font-size:0.9em; margin-top:20px;margin-bottom: -8px;color: rgb(137, 137, 140);" class="ui inverted signature">
-          <a href="" target="_blank" style="color: inherit;"></a> Powered by learnku.net<span style="color: #e27575;font-size: 14px;">❤</span>
+          <a href="" target="_blank" style="color: inherit;"></a> 前端页面样式参考 learnku.net<span style="color: #e27575;font-size: 14px;">❤</span>
       </p>
     </div>
   </div>

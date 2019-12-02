@@ -12,7 +12,7 @@
         <meta name="jwt-token" content="{{ 'Bearer '.JWTAuth::fromUser(Auth::user()) }}">
     @endauth
 
-    <title>@yield('title', 'LearnKu') - FantasyCode 博客社区</title>
+    <title>@yield('title', 'FantasyCode') - FantasyCode 博客社区</title>
     <meta name="Description" content="@yield('Description',  'FantasyCode 程序爱好者的学习园地')">
     <meta name="Keywords" content="@yield('Keywords', 'FantasyCode 一起学习，一起进步，一起努力')">
     <meta name="author" content="GucciLee" />

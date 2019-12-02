@@ -46041,7 +46041,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-/*! jquery.tocify - v1.9.0 - 2013-10-01 
+/*! jquery.tocify - v1.9.0 - 2013-10-01
 * http://gregfranko.com/jquery.tocify.js/
 * Copyright (c) 2013 Greg Franko; Licensed MIT*/
 (function (e) {
@@ -49750,7 +49750,7 @@ function () {
       $('.markdown-body').find('a').each(function () {
         var href = $(this).attr('href');
 
-        if (href.indexOf('learnku.net') === -1) {
+        if (href.indexOf('fantasycode.top') === -1) {
           $(this).attr('target', '_black');
         }
       });

@@ -136,10 +136,6 @@
                 saveRemoteData : false,
                 onChange: function (value, text, $selectedItem) {
                 }
-                /*apiSettings: {
-                    url: 'https://learnku.com/articles/tags/search?q={query}',
-                    cache: false
-                }*/
             });
         });
     </script>
