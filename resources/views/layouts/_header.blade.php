@@ -1,7 +1,8 @@
 <nav class="ui main borderless menu top stackable" id="topnav">
+
     <div class="ui container">
         <a href="{{ route('home') }}" class="item secondary">
-            网站首页
+            <h2 style="color: green;">FantasyCode</h2>
         </a>
         <a href="{{ route('topics.index') }}" class="item secondary">
             博客

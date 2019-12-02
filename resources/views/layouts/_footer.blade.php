@@ -35,7 +35,7 @@
     <div>
 
       <p style="font-size:0.9em; margin-top:20px;margin-bottom: -8px;color: rgb(137, 137, 140);" class="ui inverted signature">
-          <a href="" target="_blank" style="color: inherit;"></a> 前端页面样式参考 learnku.net<span style="color: #e27575;font-size: 14px;">❤</span>
+          <a href="" target="_blank" style="color: inherit;"></a> powered by  learnku.net<span style="color: #e27575;font-size: 14px;">❤</span>
       </p>
     </div>
   </div>
