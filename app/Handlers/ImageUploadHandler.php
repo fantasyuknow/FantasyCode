@@ -6,6 +6,7 @@ namespace App\Handlers;
 use Illuminate\Support\Str;
 use Image;
 use Illuminate\Support\Facades\Storage;
+use App\Models\Image as ImageModel;
 
 
 class ImageUploadHandler
@@ -22,6 +23,16 @@ class ImageUploadHandler
 
     public function save($file, $folder, $file_prefix, $max_width = false)
     {
+        $originName = $file->getClientOriginalName();
+        //查询该文件是否已经存在，如果存在则不在上传
+        $image_info = ImageModel::where('origin_name', $originName)->first();
+        if ($image_info) {
+            return [
+                'path' => $image_info->path,
+                'data' => $image_info
+            ];
+        }
+
         $extension = strtolower($file->getClientOriginalExtension()) ?: 'png';
         if (!in_array($extension, $this->allowedExt)) {
             return false;
@@ -36,7 +47,9 @@ class ImageUploadHandler
             $this->cutSize($uploadPath . $fileName, $max_width);
         }
         return [
-            'path' => "/{$folderName}{$fileName}"
+            'path'        => "/{$folderName}{$fileName}",
+            'origin_name' => $originName,
+            'data'        => false
         ];
     }
 

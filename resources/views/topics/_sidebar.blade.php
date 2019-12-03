@@ -39,19 +39,21 @@
                             </button>
                         </a>
                     </div>
-
                 </div>
-
-
             </div>
-
-
         @else
-            <div class="ui segment orange text-center" style="padding: 25px;">
-                无与伦比，八度空间。
+            <div class="ui segment green text-center" style="padding: 25px;">
+                <div>
+                    <i class="icon music"></i>
+                    <font style="font-weight: bold;">遇见，是最美丽的意外~~</font>
+                </div>
+                <iframe frameborder="0" border="1"
+                        marginwidth="0" marginheight="0"
+                        width="100%" height=77
+                        src="//music.163.com/outchain/player?type=2&id=28643203&auto=1&height=66">
+                </iframe>
             </div>
         @endif
-
         {{-- 文章归档 --}}
         <div class="ui card link tag-active-user-card popular-card responsive">
             <div class="content">

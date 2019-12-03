@@ -158,7 +158,7 @@
                 jsonFieldName: setting.jsonFieldName ? setting.jsonFieldName : 'filename',
                 extraParams: {
                     '_token': Config.token,
-                    'image_type': 'article',
+                    'f_type': 'topic',
                 },
                 extraHeaders: {
                     'X-Requested-With': 'XMLHttpRequest',
@@ -167,11 +167,10 @@
                 },
                 onFileUploadResponse: function(xhr) {
                     var result = JSON.parse(xhr.responseText),
-                        filename = result[this.settings.jsonFieldName];
-
+                        filename = result.path;
                     if (result && filename) {
                         // 拼接 cdns
-                        filename = Config.routes.images_domain + filename;
+                        filename = Config.url + filename;
                         var newValue;
                         if (typeof this.settings.urlText === 'function') {
                             newValue = this.settings.urlText.call(this, filename, result);

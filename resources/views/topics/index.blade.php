@@ -38,7 +38,6 @@
                 {{ $topics->appends(Request::except('page', '_pjax'))->render() }}
             </div>
         </div>
-
         @include('topics._sidebar', ['sidebar_data'=> $sidebar_data])
         <div class="clearfix"></div>
     </div>
