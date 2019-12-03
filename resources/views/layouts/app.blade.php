@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="{{ asset('images/public/favicon.png') }}" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{ asset('images/public/favicon.png') }}" type="image/x-icon"/>
     {{-- CSRF Token --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
     @auth
@@ -15,7 +15,7 @@
     <title>@yield('title', 'FantasyCode') - FantasyCode 博客社区</title>
     <meta name="Description" content="@yield('Description',  'FantasyCode 程序爱好者的学习园地')">
     <meta name="Keywords" content="@yield('Keywords', 'FantasyCode 一起学习，一起进步，一起努力')">
-    <meta name="author" content="GucciLee" />
+    <meta name="author" content="GucciLee"/>
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
@@ -31,15 +31,6 @@
                 'upload_image': "{{ route('api.image_upload') }}",
             }
         };
-
-        //百度统计
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?b9be0531c41218b2e71595d84301b33d";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
     </script>
 </head>
 <body class="pushable {{ route_class() }}-page">
@@ -58,5 +49,21 @@
 <!-- Scripts -->
 <script type="text/javascript" src="{{ mix('js/app.js')}}"></script>
 @yield('script')
+
+
+{{--百度统计--}}
+@if(!app()->isLocal())
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?b9be0531c41218b2e71595d84301b33d";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+@endif
+
+
 </body>
 </html>
