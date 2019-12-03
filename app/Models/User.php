@@ -12,14 +12,13 @@ use Illuminate\Support\Facades\Auth;
 class User extends Authenticatable implements JWTSubject
 {
 
-//    use Notifiable;
     use Notifiable {
         notify as protected laravelNotify;
     }
 
     public function notify($instance)
     {
-//        if ($this->uid === Auth::id()) return;
+        if ($this->uid === Auth::id()) return;
         if (method_exists($instance, 'toDatabase')) {
             $this->increment('notification_count');
         }
