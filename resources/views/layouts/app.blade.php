@@ -31,6 +31,15 @@
                 'upload_image': "{{ route('api.image_upload') }}",
             }
         };
+
+        //百度统计
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?b9be0531c41218b2e71595d84301b33d";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
     </script>
 </head>
 <body class="pushable {{ route_class() }}-page">
