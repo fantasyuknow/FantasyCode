@@ -3,12 +3,14 @@
 namespace App\Http\Controllers\Home;
 
 use App\Http\Controllers\Controller;
+use App\Jobs\TopicJob;
 use App\Models\Tag;
 use App\Models\Topic;
 use App\Models\TopicTag;
 use Illuminate\Http\Request;
 use App\Models\Category;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use App\Models\User;
 use App\Http\Requests\TopicRequest;
@@ -42,11 +44,14 @@ class TopicsController extends Controller
     /**
      * 文章详情
      *
+     * @param Request $request
      * @param Topic $topic
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function show(Topic $topic)
+    public function show(Request $request, Topic $topic)
     {
+        //访问量
+        topic_view($topic->id, $request->getClientIp());
         $topic->body = markDownToHtml($topic->body);
         //侧边栏数据
         $sidebar_data = Topic::getTopicsInfo($topic->user_id, $topic->id);
@@ -126,7 +131,7 @@ class TopicsController extends Controller
         $categories = Category::all();
         $tags       = Tag::all();
         //该文章已有的标签
-        $collect    = collect();
+        $collect = collect();
         $topic->tags->each(function ($item) use ($collect) {
             $collect->push($item->name);
         });
