@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\DB;
 
 
 if (!function_exists('route_class')) {
@@ -96,7 +98,21 @@ if (!function_exists('make_excerpt')) {
         $excerpt = trim(preg_replace('/\r\n|\r|\n+/', ' ', strip_tags($value)));
         return Str::limit($excerpt, $length);
     }
+}
 
+/**
+ * 文章浏览量计算
+ */
+if (!function_exists('topic_view')) {
+
+    function topic_view($topic_id, $ip)
+    {
+        $cache_key = $ip . ':' . $topic_id;
+        if (!Cache::has($cache_key)) {
+            Cache::put($cache_key, time(), 3600);
+            DB::table('topics')->where('id', $topic_id)->increment('view_count');
+        }
+    }
 }
 
 
