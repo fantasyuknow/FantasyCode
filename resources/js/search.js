@@ -11,25 +11,25 @@ var app = new Vue({
         loading: false,
         // 提交数据
         form: {
-            search_type: 'is_blog',
+            search_type: 'is_topic',
             q: ''
         },
         // 全局搜索
-        search_all_url: Config.routes.search,
+        search_all_url: Config.routes.web_search_url,
         // 搜索结果
         search_blog_results: [],
+        search_user_results: [],
         // 无搜索结果
-        search_no_results: false,
-        search_has_results: false,
+        search_blog_has_results: false,
+        search_user_has_results: false,
     },
-    mounted(){
+    mounted() {
         let self = this;
         // 初始化搜索值
         this.form.q = $("#header-search-app input[name='q']").attr('data-value');
-
         $(document).click(function () {
-            self.search_has_results = false;
-            self.search_no_results = false;
+            self.search_blog_has_results = false;
+            self.search_user_has_results = false;
             self.loading = false;
         });
     },
@@ -50,19 +50,26 @@ var app = new Vue({
                         url: action,
                         params: this.form
                     }).then(res => {
-                        if (!res.data.data.blog.length) {
-                            this.search_has_results = false;
-                            this.search_no_results = true;
+
+                        if (!res.data.data.length) {
+                            this.search_blog_has_results = false;
+                            this.search_user_has_results = false;
                         } else {
-                            this.search_no_results = false;
-                            this.search_has_results = true;
-                            this.search_blog_results = res.data.data.blog
+                            if (res.data.type === 'is_topic') {
+                                this.search_blog_results = res.data.data
+                                this.search_blog_has_results = true;
+                                this.search_user_has_results = false;
+                            } else if (res.data.type === 'is_user') {
+                                this.search_user_results = res.data.data
+                                this.search_blog_has_results = false;
+                                this.search_user_has_results = true;
+                            }
                         }
                         this.loading = false;
                     });
                 } else {
-                    this.search_has_results = false;
-                    this.search_no_results = false;
+                    this.search_user_has_results = false;
+                    this.search_blog_has_results = false;
                     this.loading = false;
                 }
             }, 200)

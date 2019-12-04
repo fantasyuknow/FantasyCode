@@ -323,63 +323,7 @@
          *
          */
         $('.user_attention').click(function () {
-            if (auth === false) {
-                Swal.fire({
-                    title: '马上去登录吧~',
-                    text: "您还未登录，无法关注您喜爱的作者哦~",
-                    icon: 'warning',
-                    showCancelButton: true,
-                    confirmButtonColor: '#21BA45',
-                    cancelButtonColor: '#d33',
-                    confirmButtonText: '去登录',
-                    cancelButtonText: '不了',
-                }).then((result) => {
-                    if (result.value) {
-                        window.location.href = "{{ route('login') }}";
-                    }
-                });
-                return false;
-            }
-
-            var self = this;
-            var icon = $(self).find('i');
-            var op = 1;
-            if ($(self).attr('type') === '1') {
-                //已关注，取消关注
-                op = 0;
-                icon.addClass("spinner loading").removeClass("checkmark");
-            } else {
-                //未关注，关注
-                icon.addClass("spinner loading").removeClass("plus");
-            }
-            var user_id = $(self).attr('data-id');
-
-            axios({
-                url: "{{ route('api.user_attention') }}",
-                data: {user_id: user_id, op: op},
-                method: 'post',
-            }).then((res) => {
-                icon.addClass("plus").removeClass("spinner loading");
-
-                if (res.status) {
-                    $(self).find('span').text(res.data.data.collect_count);
-                    if ($(self).attr('type') === '1') {
-                        $(self).find('i').removeClass('spinner loading').addClass('plus');
-                        $(self).attr('type', '0');
-                    } else {
-                        $(self).find('i').removeClass('spinner loading').addClass('checkmark');
-                        $(self).attr('type', '1');
-                    }
-                } else {
-                    Swal.fire({
-                        position: 'top-end',
-                        type: 'error',
-                        title: res.data.msg,
-                        showConfirmButton: false,
-                        timer: 2000
-                    })
-                }
-            })
+            window.FantasyCodeNew.userAttention(this);
         });
 
 

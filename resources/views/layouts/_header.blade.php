@@ -7,24 +7,74 @@
         <a href="{{ route('topics.index') }}" class="item secondary">
             博客
         </a>
-{{--        <div class="ui simple item dropdown article stackable nav-user-item  secondary">--}}
-{{--            友情链接 <i class="dropdown icon"></i>--}}
-{{--            <div class="ui menu stackable">--}}
-{{--                <a href="" class="item">--}}
-{{--                    <i class="icon home"></i> 实战教程首页--}}
-{{--                </a>--}}
-{{--                <a href="" class="item">--}}
-{{--                    <i class="icon home"></i> 实战教程首页--}}
-{{--                </a>--}}
-{{--                <a href="" class="item">--}}
-{{--                    <i class="icon home"></i> 实战教程首页--}}
-{{--                </a>--}}
+        {{--        <div class="ui simple item dropdown article stackable nav-user-item  secondary">--}}
+        {{--            友情链接 <i class="dropdown icon"></i>--}}
+        {{--            <div class="ui menu stackable">--}}
+        {{--                <a href="" class="item">--}}
+        {{--                    <i class="icon home"></i> 实战教程首页--}}
+        {{--                </a>--}}
+        {{--                <a href="" class="item">--}}
+        {{--                    <i class="icon home"></i> 实战教程首页--}}
+        {{--                </a>--}}
+        {{--                <a href="" class="item">--}}
+        {{--                    <i class="icon home"></i> 实战教程首页--}}
+        {{--                </a>--}}
 
-{{--            </div>--}}
-{{--        </div>--}}
+        {{--            </div>--}}
+        {{--        </div>--}}
         <a href="{{ route('abouts.index') }}" class="item secondary">
             关于本站
         </a>
+
+
+        {{-- 搜索 vue --}}
+        <form id="header-search-app" class="ui fluid category search item secondary"
+              data-api="{{ route('api.search.index') }}"
+              action="{{ route('search.index') }}" method="GET">
+            <div class="ui icon input" :class="{ 'loading' : loading }">
+                <select class="ui compact selection dropdown header-search-left"
+                        v-model="form.search_type"
+                        id="header-search-left"
+                        name="search_type"
+                        data-value="">
+                    <option value="is_topic" selected="selected">文章</option>
+                    <option value="is_user">用户</option>
+                </select>
+                <input class="prompt header-search-right"
+                       type="text"
+                       placeholder="搜索"
+                       autocomplete="off"
+                       @input.stop="search($event)" @focus.stop="search($event)"
+                       name="q"
+                       data-value="{{ old('q', isset($data['search']['q'])) ? $data['search']['q'] : '' }}"
+                       v-model="form.q">
+                <i class="search icon"></i>
+            </div>
+            <div class="results transition"
+                 :class="{ visible:  search_blog_results.length && search_blog_has_results }"
+                 id="search-results">
+                <a class="result" v-for="item in search_blog_results" :href="item.href">
+                    <div class="content">
+                        <div class="title" v-text="item.title"></div>
+                        <div class="description" v-text="item.excerpt"></div>
+                    </div>
+                </a>
+                <a :href="search_all_url" class="action"><i class="icon search"></i>搜全站(回车)</a>
+            </div>
+
+            <div class="results transition"
+                 :class="{ visible:  search_user_results.length && search_user_has_results }"
+                 id="search-results">
+                <a class="result" v-for="item in search_user_results" :href="item.href">
+                    <div class="content">
+                        <div class="title" v-text="item.name"></div>
+                        <div class="description" v-text="item.introduction"></div>
+                    </div>
+                </a>
+                <a :href="search_all_url" class="action"><i class="icon search"></i>搜全站(回车)</a>
+            </div>
+        </form>
+
 
         {{-- 右侧导航 --}}
         <div class=" right menu stackable secondary">
@@ -62,11 +112,11 @@
                     {{ Auth::user()->name }}
                     <i class="dropdown icon"></i>
                     <div class="ui menu stackable" tabindex="-1">
-{{--                        @can('manage_contents')--}}
-{{--                            <a href="" class="item" target="_blank">--}}
-{{--                                <i class="icon heart"></i> 后台管理--}}
-{{--                            </a>--}}
-{{--                        @endcan--}}
+                        {{--                        @can('manage_contents')--}}
+                        {{--                            <a href="" class="item" target="_blank">--}}
+                        {{--                                <i class="icon heart"></i> 后台管理--}}
+                        {{--                            </a>--}}
+                        {{--                        @endcan--}}
 
                         <a href="{{ route('users.show', Auth::id()) }}" class="item">
                             <i class="icon user"></i>
