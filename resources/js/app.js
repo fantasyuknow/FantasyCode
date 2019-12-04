@@ -1,4 +1,3 @@
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -9,7 +8,7 @@ require('./bootstrap_blog');
 require('./search');
 
 /** 返回对应位置 */
-window.scrollToAnchor = function(id) {
+window.scrollToAnchor = function (id) {
     var e = $("*[id='" + id + "']");
     $("html,body").animate({
         scrollTop: e.offset().top
@@ -29,7 +28,7 @@ window.public = {
             title: res.msg,
         });
     },
-    axios_catch: function(error) {
+    axios_catch: function (error) {
         let response = error.response,
             html = '';
         if (response.data && response.data.errors) {
@@ -37,7 +36,7 @@ window.public = {
                 html += '<p style="text-align: left;">' + response.data.errors[error] + '</p>';
             }
             Swal.fire(html, '', 'error');
-        } else if(response.data && response.data.message){
+        } else if (response.data && response.data.message) {
             Swal.fire(response.data.message, '', 'error');
         }
     },
@@ -66,18 +65,18 @@ class FantasyCode {
     }
 
     /** 表单提交 */
-    initSubmitBtn(){
-        $('button.ui.button[type="submit"]:not(.no-loading)').click(function() {
+    initSubmitBtn() {
+        $('button.ui.button[type="submit"]:not(.no-loading)').click(function () {
             $(this).addClass("disabled");
-            if($(".clear-submit").length > 0) {
+            if ($(".clear-submit").length > 0) {
                 var self = $(this);
-                setTimeout(function() {
+                setTimeout(function () {
                     self.after('<a class="clear-submit ml-3 ts-small" href="javascript:;">清除加载状态</a>')
                 }, 3000)
             }
         });
 
-        $("body").on("click", "a.clear-submit", function() {
+        $("body").on("click", "a.clear-submit", function () {
             $(this).siblings('button.ui.button[type="submit"]').removeClass("loading"),
                 $(this).siblings('button.ui.button[type="submit"]').removeClass("disabled"),
                 $(this).remove()
@@ -92,10 +91,10 @@ class FantasyCode {
     }
 
     /** SematicUI */
-    initSematicUI(){
+    initSematicUI() {
         $(".ui.dropdown").dropdown();
         $(".ui.community-nav.dropdown").dropdown({
-            onChange: function(t, e, n) {
+            onChange: function (t, e, n) {
                 window.location.href = n.attr("href")
             }
         });
@@ -121,7 +120,7 @@ class FantasyCode {
         $(".ui.translate-box.sticky").sticky({
             silent: !0
         });
-        $(".message .close").on("click", function() {
+        $(".message .close").on("click", function () {
             $(".message-container").transition("fade")
         });
         $(".ui.left.sidebar").sidebar({
@@ -130,7 +129,7 @@ class FantasyCode {
             observeChanges: !0,
             closable: !1,
             dimPage: !1,
-            onVisible: function() {
+            onVisible: function () {
                 var e = 200 / screen.width * 100
                     , n = 100 - e + "%";
                 $(".pusher").width(n),
@@ -138,21 +137,21 @@ class FantasyCode {
                         marginLeft: e + "%"
                     }, 400)
             },
-            onShow: function() {
+            onShow: function () {
                 $(".fixed.launch.button").css("left", 200),
                     $(".fixed.launch.button").css("padding", "10px 6px"),
                     $(".ui.toc.sticky").sticky("refresh")
             },
-            onHide: function() {
+            onHide: function () {
                 $(".pusher").width("100%"),
                     $(".pusher").css("margin-left", "inherit"),
-                    $(".ui.toc.sticky").each(function() {
+                    $(".ui.toc.sticky").each(function () {
                         $(this).data("moduleSticky").refresh()
                     }),
                     $(".fixed.launch.button").css("padding", "0.78571429em 1.5em 0.78571429em"),
                     $(".fixed.launch.button").css("left", 0)
             },
-            onHidden: function() {
+            onHidden: function () {
                 $(".ui.toc.sticky").sticky("refresh")
             }
         }).sidebar("attach events", ".launch.button, .chapter-title, .launch.item");
@@ -167,7 +166,7 @@ class FantasyCode {
     }
 
     /** 懒加载*/
-    initLazyload(){
+    initLazyload() {
         // <img class="lazy" data-original="img/corvette_pitstop.jpg">
         $("img.lazy").lazyload({
             // placeholder
@@ -175,8 +174,8 @@ class FantasyCode {
     }
 
     /** 删除 form 表单 */
-    initDeleteForm(){
-        $("[data-method]").append(function() {
+    initDeleteForm() {
+        $("[data-method]").append(function () {
             return `
                 <form action="${$(this).attr("data-url")}" method='POST' style='display:none'>
                     <input type='hidden' name='_method' value="${$(this).attr("data-method").toUpperCase()}">
@@ -187,7 +186,7 @@ class FantasyCode {
             var self = this;
             var e = $(this);
             var method = e.attr("data-method").toUpperCase();
-            if("DELETE" == method){
+            if ("DELETE" == method) {
                 Swal.fire({
                     title: "",
                     html: $(self).attr("data-hint") ? $(self).attr("data-hint") : "你确定要删除此内容吗？",
@@ -197,12 +196,12 @@ class FantasyCode {
                     showCancelButton: !0,
                     cancelButtonText: "取消",
                     confirmButtonText: "删除"
-                }).then(function(res) {
-                    if(res.value){
+                }).then(function (res) {
+                    if (res.value) {
                         e.find("form").submit()
                     }
                 })
-            }else if("POST" != method && "GET" != method || (e.attr("data-prompt"))){
+            } else if ("POST" != method && "GET" != method || (e.attr("data-prompt"))) {
                 Swal.fire({
                     title: "",
                     html: $(self).attr("data-prompt"),
@@ -210,8 +209,8 @@ class FantasyCode {
                     showCancelButton: !0,
                     cancelButtonText: "取消",
                     confirmButtonText: "确定"
-                }).then(function(res) {
-                    if(res.value){
+                }).then(function (res) {
+                    if (res.value) {
                         e.find("form").submit()
                     }
                 })
@@ -225,7 +224,7 @@ class FantasyCode {
             let self = this;
             let method = $(this).attr("axios-method").toUpperCase();
 
-            if("DELETE" == method){
+            if ("DELETE" == method) {
                 Swal.fire({
                     title: "",
                     html: $(self).attr("data-hint") ? $(self).attr("data-hint") : "你确定要删除此内容吗？",
@@ -235,11 +234,11 @@ class FantasyCode {
                     showCancelButton: !0,
                     cancelButtonText: "取消",
                     confirmButtonText: "删除"
-                }).then(function(res) {
+                }).then(function (res) {
                     axios({
                         url: $(self).attr('data-url'),
                         method: method
-                    }).then((res)=> {
+                    }).then((res) => {
 
                         if (callback) {
                             callback(self, res);
@@ -251,7 +250,7 @@ class FantasyCode {
                         });
                     })
                 })
-            }else if("POST" != method && "GET" != method || (e.attr("data-prompt"))){
+            } else if ("POST" != method && "GET" != method || (e.attr("data-prompt"))) {
                 /*Swal.fire({
                     title: "",
                     html: $(self).attr("data-prompt"),
@@ -269,19 +268,88 @@ class FantasyCode {
     }
 
     /** 图库灯箱 */
-    initLightBox(){
-        $(".fluidbox-content img:not(.emoji)").each(function() {
+    initLightBox() {
+        $(".fluidbox-content img:not(.emoji)").each(function () {
             $(this).wrap("<a href='" + $(this).attr("src") + "' class='fluidbox'></a>")
-        }).promise().done(function() {
+        }).promise().done(function () {
             $("a.fluidbox").fluidbox()
         })
     }
+
+
+    /** 用户关注和取消关注 */
+    userAttention(self) {
+
+        if (Config.auth === false) {
+            Swal.fire({
+                title: '马上去登录吧~',
+                text: "您还未登录，无法关注您喜爱的作者哦~",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#21BA45',
+                cancelButtonColor: '#d33',
+                confirmButtonText: '去登录',
+                cancelButtonText: '不了',
+            }).then((result) => {
+                if (result.value) {
+                    window.location.href = Config.routes.login;
+                }
+            });
+            return false;
+        }
+        var icon = $(self).find('i');
+        var op = 1;
+        if ($(self).attr('type') === '1') {
+            //已关注，取消关注
+            op = 0;
+            icon.addClass("spinner loading").removeClass("checkmark");
+        } else {
+            //未关注，关注
+            icon.addClass("spinner loading").removeClass("plus");
+        }
+        var user_id = $(self).attr('data-id');
+
+        axios({
+            method: 'POST',
+            url: Config.routes.user_attention,
+            data: {user_id:user_id, op: op},
+        }).then((res) => {
+            icon.addClass("plus").removeClass("spinner loading");
+
+            if (res.status) {
+                $(self).find('span').text(res.data.data.collect_count);
+                if ($(self).attr('type') === '1') {
+                    $(self).find('i').removeClass('spinner loading').addClass('plus');
+                    $(self).find('.state').html('关注');
+                    $(self).attr('type', '0');
+                } else {
+                    $(self).find('i').removeClass('spinner loading').addClass('checkmark').addClass('red');
+                    $(self).find('.state').html('已关注')
+                    $(self).attr('type', '1');
+                }
+            } else {
+                Swal.fire({
+                    position: 'top-end',
+                    type: 'error',
+                    title: res.data.msg,
+                    showConfirmButton: false,
+                    timer: 2000
+                })
+            }
+
+        }).catch(function (error) {
+            window.public.axios_catch(error);
+        });
+        return false;
+    }
+
+
 }
 
 
 /** 代码高亮工具 */
 class MarkdownBody {
-    constructor(){
+    constructor() {
         this.bodyClass = '.markdown-body';
         this.codeClass = '.markdown-body pre';
         this.addLineNumber();
@@ -290,20 +358,22 @@ class MarkdownBody {
     }
 
     /** 增加行号 */
-    addLineNumber(){
+    addLineNumber() {
         $(this.codeClass).addClass("line-numbers").css("white-space", "pre-wrap");
     }
+
     /** 增加 三个点 漂亮样式 */
-    addThreePoints(){
+    addThreePoints() {
         var html = '<div class="window-controls"><i class="red"></i><i class="yellow"></i><i class="green"></i></div>';
         $(this.codeClass).prepend(html);
     }
+
     /** 增加标题导航 tocify */
-    addTitleNav(){
+    addTitleNav() {
         var self = this;
         var selectors = ['h1', 'h2', 'h3', 'h4'];
         var selectorsTmp = [];
-        selectors.forEach((item)=> {
+        selectors.forEach((item) => {
             if ($(self.bodyClass).find(item).length > 0) {
                 selectorsTmp.push(item);
             }
@@ -319,10 +389,10 @@ class MarkdownBody {
             context: self.bodyClass,    // 任意可用的jQuery选择器
             selectors: selectorsTmp,    // 文章节点，可以关联生成目录
             showAndHide: false,         // 是否展示二级目录结构
-            showEffect:'show',          // 目录展示效果："none", "fadeIn", "show", or "slideDown"
-            hashGenerator: function (a,b) {
+            showEffect: 'show',          // 目录展示效果："none", "fadeIn", "show", or "slideDown"
+            hashGenerator: function (a, b) {
                 // 返回随机数
-                return Math.random().toString(36).substr(2,10);
+                return Math.random().toString(36).substr(2, 10);
             }
         });
     }

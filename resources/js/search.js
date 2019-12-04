@@ -15,7 +15,7 @@ var app = new Vue({
             q: ''
         },
         // 全局搜索
-        search_all_url: Config.routes.search,
+        search_all_url: Config.routes.web_search_url,
         // 搜索结果
         search_blog_results: [],
         search_user_results: [],
@@ -27,7 +27,6 @@ var app = new Vue({
         let self = this;
         // 初始化搜索值
         this.form.q = $("#header-search-app input[name='q']").attr('data-value');
-
         $(document).click(function () {
             self.search_blog_has_results = false;
             self.search_user_has_results = false;

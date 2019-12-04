@@ -34,7 +34,9 @@
             <div class="ui icon input" :class="{ 'loading' : loading }">
                 <select class="ui compact selection dropdown header-search-left"
                         v-model="form.search_type"
-                        id="header-search-left">
+                        id="header-search-left"
+                        name="search_type"
+                        data-value="">
                     <option value="is_topic" selected="selected">文章</option>
                     <option value="is_user">用户</option>
                 </select>
@@ -70,18 +72,6 @@
                     </div>
                 </a>
                 <a :href="search_all_url" class="action"><i class="icon search"></i>搜全站</a>
-            </div>
-
-            <div class="results transition"
-                 :class="{ visible: search_user_has_results ||  search_blog_has_results}">
-                <div class="message empty">
-                    <div class="header">结果为空</div>
-                    <div class="description">搜索结果为空！</div>
-                    <a :href="search_all_url" class="action ui button mt-3 fluid">
-                        <i class="icon search"></i>
-                        搜全站
-                    </a>
-                </div>
             </div>
         </form>
 

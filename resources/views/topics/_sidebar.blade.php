@@ -14,7 +14,7 @@
                             {{ $topic->user->created_at->diffForHumans() }}
                         </div>
                         <div class="description">
-                            简介： {!!  $topic->user->introduction ?: 'Ta很神秘哦~暂无简介' !!}
+                            简介： {!!  $topic->user->introduction ?: 'Ta很神秘哦~' !!}
                         </div>
                     </div>
 

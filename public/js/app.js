@@ -49969,6 +49969,78 @@ function () {
         $("a.fluidbox").fluidbox();
       });
     }
+    /** 用户关注和取消关注 */
+
+  }, {
+    key: "userAttention",
+    value: function userAttention(self) {
+      if (Config.auth === false) {
+        Swal.fire({
+          title: '马上去登录吧~',
+          text: "您还未登录，无法关注您喜爱的作者哦~",
+          icon: 'warning',
+          showCancelButton: true,
+          confirmButtonColor: '#21BA45',
+          cancelButtonColor: '#d33',
+          confirmButtonText: '去登录',
+          cancelButtonText: '不了'
+        }).then(function (result) {
+          if (result.value) {
+            window.location.href = Config.routes.login;
+          }
+        });
+        return false;
+      }
+
+      var icon = $(self).find('i');
+      var op = 1;
+
+      if ($(self).attr('type') === '1') {
+        //已关注，取消关注
+        op = 0;
+        icon.addClass("spinner loading").removeClass("checkmark");
+      } else {
+        //未关注，关注
+        icon.addClass("spinner loading").removeClass("plus");
+      }
+
+      var user_id = $(self).attr('data-id');
+      axios({
+        method: 'POST',
+        url: Config.routes.user_attention,
+        data: {
+          user_id: user_id,
+          op: op
+        }
+      }).then(function (res) {
+        icon.addClass("plus").removeClass("spinner loading");
+
+        if (res.status) {
+          $(self).find('span').text(res.data.data.collect_count);
+
+          if ($(self).attr('type') === '1') {
+            $(self).find('i').removeClass('spinner loading').addClass('plus');
+            $(self).find('.state').html('关注');
+            $(self).attr('type', '0');
+          } else {
+            $(self).find('i').removeClass('spinner loading').addClass('checkmark').addClass('red');
+            $(self).find('.state').html('已关注');
+            $(self).attr('type', '1');
+          }
+        } else {
+          Swal.fire({
+            position: 'top-end',
+            type: 'error',
+            title: res.data.msg,
+            showConfirmButton: false,
+            timer: 2000
+          });
+        }
+      })["catch"](function (error) {
+        window["public"].axios_catch(error);
+      });
+      return false;
+    }
   }]);
 
   return FantasyCode;
@@ -50157,7 +50229,7 @@ var app = new Vue({
       q: ''
     },
     // 全局搜索
-    search_all_url: Config.routes.search,
+    search_all_url: Config.routes.web_search_url,
     // 搜索结果
     search_blog_results: [],
     search_user_results: [],

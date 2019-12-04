@@ -18,6 +18,7 @@ class Topic extends Model
         'category_id'
     ];
 
+
     public static function getTopicsInfo($user_id = 0, $topic_id = 0)
     {
         $result = [];

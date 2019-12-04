@@ -27,8 +27,12 @@
             'token': "{{ csrf_token() }}",
             'isApi': false,
             'url': "{{ config('app.url') }}",
+            'auth': "{{ \Illuminate\Support\Facades\Auth::check() }}",
             'routes': {
                 'upload_image': "{{ route('api.image_upload') }}",
+                'user_attention': "{{ route('api.user_attention') }}",
+                'login': "{{ route('login') }}",
+                'web_search_url':"{{ route('search.index') }}",
             }
         };
     </script>
