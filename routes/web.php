@@ -35,6 +35,7 @@ Route::namespace('Home')->group(function () {
     Route::put('users/{user}/update_password', 'UsersController@updatePassword')->name('users.update_password');
     Route::resource('notifications', 'NotificationsController', ['only' => ['index']]);
     Route::get('about','AboutsController@about')->name('abouts.index');
+    Route::get('search','SearchController@index')->name('search.index');
 });
 
 

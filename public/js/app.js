@@ -49684,8 +49684,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
  */
 window.FantasyCodeNew = null;
 
-__webpack_require__(/*! ./bootstrap_blog */ "./resources/js/bootstrap_blog.js"); // require('./search');
+__webpack_require__(/*! ./bootstrap_blog */ "./resources/js/bootstrap_blog.js");
 
+__webpack_require__(/*! ./search */ "./resources/js/search.js");
 /** 返回对应位置 */
 
 
@@ -50130,6 +50131,95 @@ try {
 //     cluster: 'mt1',
 //     encrypted: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/search.js":
+/*!********************************!*\
+  !*** ./resources/js/search.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * 全局搜索
+ */
+var app = new Vue({
+  el: '#header-search-app',
+  // 重新定义分解符
+  delimiters: ['<{', '}>'],
+  data: {
+    timmer: null,
+    loading: false,
+    // 提交数据
+    form: {
+      search_type: 'is_topic',
+      q: ''
+    },
+    // 全局搜索
+    search_all_url: Config.routes.search,
+    // 搜索结果
+    search_blog_results: [],
+    search_user_results: [],
+    // 无搜索结果
+    search_blog_has_results: false,
+    search_user_has_results: false
+  },
+  mounted: function mounted() {
+    var self = this; // 初始化搜索值
+
+    this.form.q = $("#header-search-app input[name='q']").attr('data-value');
+    $(document).click(function () {
+      self.search_blog_has_results = false;
+      self.search_user_has_results = false;
+      self.loading = false;
+    });
+  },
+  methods: {
+    search: function search($event) {
+      var _this = this;
+
+      this.timmer && clearTimeout(this.timmer);
+      this.timmer = setTimeout(function () {
+        clearTimeout(_this.timmer); // todo
+
+        var form = $($event.target).closest('form');
+        var action = form.attr('data-api');
+        _this.search_all_url = Config.routes.search + '?' + form.serialize();
+        _this.loading = true;
+
+        if ($.trim(_this.form.q) != '') {
+          axios({
+            method: 'get',
+            url: action,
+            params: _this.form
+          }).then(function (res) {
+            if (!res.data.data.length) {
+              _this.search_blog_has_results = false;
+              _this.search_user_has_results = false;
+            } else {
+              if (res.data.type === 'is_topic') {
+                _this.search_blog_results = res.data.data;
+                _this.search_blog_has_results = true;
+                _this.search_user_has_results = false;
+              } else if (res.data.type === 'is_user') {
+                _this.search_user_results = res.data.data;
+                _this.search_blog_has_results = false;
+                _this.search_user_has_results = true;
+              }
+            }
+
+            _this.loading = false;
+          });
+        } else {
+          _this.search_user_has_results = false;
+          _this.search_blog_has_results = false;
+          _this.loading = false;
+        }
+      }, 200);
+    }
+  }
+});
 
 /***/ }),
 

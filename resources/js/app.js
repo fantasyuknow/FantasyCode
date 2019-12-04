@@ -6,7 +6,7 @@
  */
 window.FantasyCodeNew = null;
 require('./bootstrap_blog');
-// require('./search');
+require('./search');
 
 /** 返回对应位置 */
 window.scrollToAnchor = function(id) {
