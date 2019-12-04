@@ -42,7 +42,7 @@ class SearchController extends Controller
                 //登录用户是否关注搜索用户
                 if($users->total()){
                     $f_uids= $users->pluck('id')->toArray();;
-                    if(!empty($f_uids)){
+                    if(!empty($f_uids) && Auth::check()){
                         $attentions = Auth::user()->follows()->whereIn('user_attentions.f_uid',$f_uids)->pluck('f_uid');
                         foreach($users as $key=>$item){
                             if($attentions->contains($item->id)){
