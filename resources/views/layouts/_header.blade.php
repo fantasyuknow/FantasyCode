@@ -59,7 +59,7 @@
                         <div class="description" v-text="item.excerpt"></div>
                     </div>
                 </a>
-                <a :href="search_all_url" class="action"><i class="icon search"></i>搜全站</a>
+                <a :href="search_all_url" class="action"><i class="icon search"></i>搜全站(回车)</a>
             </div>
 
             <div class="results transition"
@@ -71,7 +71,7 @@
                         <div class="description" v-text="item.introduction"></div>
                     </div>
                 </a>
-                <a :href="search_all_url" class="action"><i class="icon search"></i>搜全站</a>
+                <a :href="search_all_url" class="action"><i class="icon search"></i>搜全站(回车)</a>
             </div>
         </form>
 
