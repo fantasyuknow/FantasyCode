@@ -11,12 +11,12 @@
             "version": "4.0.7",
             "source": {
                 "type": "git",
-                "url": "https://github.com/caouecs/Laravel-lang.git",
+                "url": "https://github.com/caouecs/lang.git",
                 "reference": "13c8551427e5d935fc287a19d7ba1c9fd42d83d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/caouecs/Laravel-lang/zipball/13c8551427e5d935fc287a19d7ba1c9fd42d83d5",
+                "url": "https://api.github.com/repos/caouecs/lang/zipball/13c8551427e5d935fc287a19d7ba1c9fd42d83d5",
                 "reference": "13c8551427e5d935fc287a19d7ba1c9fd42d83d5",
                 "shasum": ""
             },
@@ -30,7 +30,7 @@
                 "overtrue/laravel-lang": "Command to add languages in your project"
             },
             "type": "library",
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -47,6 +47,7 @@
                 "laravel",
                 "lpm"
             ],
+            "abandoned": "https://github.com/Laravel-Lang/lang",
             "time": "2019-11-20T05:44:33+00:00"
         },
         {
@@ -379,7 +380,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/ezyang/htmlpurifier/zipball/83ab08bc1af7d808a9e0fbf024f1c24bfd73c0a7",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/83ab08bc1af7d808a9e0fbf024f1c24bfd73c0a7",
                 "reference": "83ab08bc1af7d808a9e0fbf024f1c24bfd73c0a7",
                 "shasum": ""
             },
@@ -398,7 +399,7 @@
                     "library/HTMLPurifier.composer.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "LGPL-2.1-or-later"
             ],
@@ -480,7 +481,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/guzzle/guzzle/zipball/0895c932405407fd3a7368b6910c09a24d26db11",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/0895c932405407fd3a7368b6910c09a24d26db11",
                 "reference": "0895c932405407fd3a7368b6910c09a24d26db11",
                 "shasum": ""
             },
@@ -512,7 +513,7 @@
                     "src/functions_include.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -546,7 +547,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
                 "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
                 "shasum": ""
             },
@@ -570,7 +571,7 @@
                     "src/functions_include.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -597,7 +598,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/guzzle/psr7/zipball/239400de7a173fe9901b9ac7c06497751f00727a",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/239400de7a173fe9901b9ac7c06497751f00727a",
                 "reference": "239400de7a173fe9901b9ac7c06497751f00727a",
                 "shasum": ""
             },
@@ -630,7 +631,7 @@
                     "src/functions_include.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -668,7 +669,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/letrunghieu/active/zipball/5c6fa9d24122789d859490b28fe711d2aea91bba",
+                "url": "https://api.github.com/repos/letrunghieu/active/zipball/5c6fa9d24122789d859490b28fe711d2aea91bba",
                 "reference": "5c6fa9d24122789d859490b28fe711d2aea91bba",
                 "shasum": ""
             },
@@ -700,7 +701,7 @@
                     "src/helpers.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -730,7 +731,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/Intervention/image/zipball/abbf18d5ab8367f96b3205ca3c89fb2fa598c69e",
+                "url": "https://api.github.com/repos/Intervention/image/zipball/abbf18d5ab8367f96b3205ca3c89fb2fa598c69e",
                 "reference": "abbf18d5ab8367f96b3205ca3c89fb2fa598c69e",
                 "shasum": ""
             },
@@ -767,7 +768,7 @@
                     "Intervention\\Image\\": "src/Intervention/Image"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -830,6 +831,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -876,6 +878,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -888,7 +891,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/laravel/framework/zipball/b48528ba5422ac909dbabf0b1cc34534928e7bce",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/b48528ba5422ac909dbabf0b1cc34534928e7bce",
                 "reference": "b48528ba5422ac909dbabf0b1cc34534928e7bce",
                 "shasum": ""
             },
@@ -1006,7 +1009,7 @@
                     "Illuminate\\": "src/Illuminate/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1097,7 +1100,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/lcobucci/jwt/zipball/a11ec5f4b4d75d1fcd04e133dede4c317aac9e18",
+                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/a11ec5f4b4d75d1fcd04e133dede4c317aac9e18",
                 "reference": "a11ec5f4b4d75d1fcd04e133dede4c317aac9e18",
                 "shasum": ""
             },
@@ -1124,7 +1127,7 @@
                     "Lcobucci\\JWT\\": "src"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1236,7 +1239,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/mewebstudio/captcha/zipball/bef0db3663f1fe442ae803fb207dbe2bbfa10890",
+                "url": "https://api.github.com/repos/mewebstudio/captcha/zipball/bef0db3663f1fe442ae803fb207dbe2bbfa10890",
                 "reference": "bef0db3663f1fe442ae803fb207dbe2bbfa10890",
                 "shasum": ""
             },
@@ -1273,7 +1276,7 @@
                     "src/helpers.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1305,7 +1308,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/mewebstudio/Purifier/zipball/585be0f0f25f31c3542a5bc2debd9d0f000dcf07",
+                "url": "https://api.github.com/repos/mewebstudio/Purifier/zipball/585be0f0f25f31c3542a5bc2debd9d0f000dcf07",
                 "reference": "585be0f0f25f31c3542a5bc2debd9d0f000dcf07",
                 "shasum": ""
             },
@@ -1345,7 +1348,7 @@
                     "src/helpers.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1464,7 +1467,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/namshi/jose/zipball/89a24d7eb3040e285dd5925fcad992378b82bcff",
+                "url": "https://api.github.com/repos/namshi/jose/zipball/89a24d7eb3040e285dd5925fcad992378b82bcff",
                 "reference": "89a24d7eb3040e285dd5925fcad992378b82bcff",
                 "shasum": ""
             },
@@ -1492,7 +1495,7 @@
                     "Namshi\\JOSE\\": "src/Namshi/JOSE/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1527,7 +1530,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/briannesbitt/Carbon/zipball/13b8485a8690f103bf19cba64879c218b102b726",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/13b8485a8690f103bf19cba64879c218b102b726",
                 "reference": "13b8485a8690f103bf19cba64879c218b102b726",
                 "shasum": ""
             },
@@ -1563,7 +1566,7 @@
                     "Carbon\\": "src/Carbon/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1649,7 +1652,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/opis/closure/zipball/93ebc5712cdad8d5f489b500c59d122df2e53969",
+                "url": "https://api.github.com/repos/opis/closure/zipball/93ebc5712cdad8d5f489b500c59d122df2e53969",
                 "reference": "93ebc5712cdad8d5f489b500c59d122df2e53969",
                 "shasum": ""
             },
@@ -1674,7 +1677,7 @@
                     "functions.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1710,7 +1713,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/overtrue/laravel-lang/zipball/b36ac877da7b44135e1e3368456577c149b2e228",
+                "url": "https://api.github.com/repos/overtrue/laravel-lang/zipball/b36ac877da7b44135e1e3368456577c149b2e228",
                 "reference": "b36ac877da7b44135e1e3368456577c149b2e228",
                 "shasum": ""
             },
@@ -1727,7 +1730,7 @@
                     "src/helpers.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1755,7 +1758,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/overtrue/pinyin/zipball/94fdb3ea6eca5677afd9548111d95bedcd5a4086",
+                "url": "https://api.github.com/repos/overtrue/pinyin/zipball/94fdb3ea6eca5677afd9548111d95bedcd5a4086",
                 "reference": "94fdb3ea6eca5677afd9548111d95bedcd5a4086",
                 "shasum": ""
             },
@@ -1774,7 +1777,7 @@
                     "src/const.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1848,7 +1851,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/schmittjoh/php-option/zipball/f4e7a6a1382183412246f0d361078c29fb85089e",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/f4e7a6a1382183412246f0d361078c29fb85089e",
                 "reference": "f4e7a6a1382183412246f0d361078c29fb85089e",
                 "shasum": ""
             },
@@ -1869,7 +1872,7 @@
                     "PhpOption\\": "src/PhpOption/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -1897,12 +1900,12 @@
             "version": "v1.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nrk/predis.git",
+                "url": "https://github.com/predis/predis.git",
                 "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/nrk/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "url": "https://api.github.com/repos/predis/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
                 "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1",
                 "shasum": ""
             },
@@ -1922,7 +1925,7 @@
                     "Predis\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1939,6 +1942,16 @@
                 "nosql",
                 "predis",
                 "redis"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/tillkruss",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/tillkruss",
+                    "type": "github"
+                }
             ],
             "time": "2016-06-16T16:22:20+00:00"
         },
@@ -2001,7 +2014,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
                 "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
                 "shasum": ""
             },
@@ -2019,7 +2032,7 @@
                     "Psr\\Http\\Message\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2043,16 +2056,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
-                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
                 "shasum": ""
             },
             "require": {
@@ -2086,7 +2099,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2019-11-01T11:05:21+00:00"
+            "time": "2020-03-23T09:12:05+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -2146,7 +2159,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/bobthecow/psysh/zipball/75d9ac1c16db676de27ab554a4152b594be4748e",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/75d9ac1c16db676de27ab554a4152b594be4748e",
                 "reference": "75d9ac1c16db676de27ab554a4152b594be4748e",
                 "shasum": ""
             },
@@ -2189,7 +2202,7 @@
                     "Psy\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2220,7 +2233,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
                 "reference": "120b605dfeb996808c31b6477290a714d356e822",
                 "shasum": ""
             },
@@ -2237,7 +2250,7 @@
                     "src/getallheaders.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2260,7 +2273,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/ramsey/uuid/zipball/5ac2740e0c8c599d2bbe7f113a939f2b5b216c67",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/5ac2740e0c8c599d2bbe7f113a939f2b5b216c67",
                 "reference": "5ac2740e0c8c599d2bbe7f113a939f2b5b216c67",
                 "shasum": ""
             },
@@ -2309,7 +2322,7 @@
                     "src/functions.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2409,7 +2422,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/console/zipball/f0aea3df20d15635b3cb9730ca5eea1c65b7f201",
+                "url": "https://api.github.com/repos/symfony/console/zipball/f0aea3df20d15635b3cb9730ca5eea1c65b7f201",
                 "reference": "f0aea3df20d15635b3cb9730ca5eea1c65b7f201",
                 "shasum": ""
             },
@@ -2457,7 +2470,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2485,7 +2498,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/css-selector/zipball/19d29e7098b7b2c3313cb03902ca30f100dcb837",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/19d29e7098b7b2c3313cb03902ca30f100dcb837",
                 "reference": "19d29e7098b7b2c3313cb03902ca30f100dcb837",
                 "shasum": ""
             },
@@ -2506,7 +2519,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2530,21 +2543,22 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v4.4.1",
+            "version": "v4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "b8600a1d7d20b0e80906398bb1f50612fa074a8e"
+                "reference": "aeb73aca16a8f1fe958230fe44e6cf4c84cbb85e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/debug/zipball/b8600a1d7d20b0e80906398bb1f50612fa074a8e",
-                "reference": "b8600a1d7d20b0e80906398bb1f50612fa074a8e",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/aeb73aca16a8f1fe958230fe44e6cf4c84cbb85e",
+                "reference": "aeb73aca16a8f1fe958230fe44e6cf4c84cbb85e",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
-                "psr/log": "~1.0"
+                "php": ">=7.1.3",
+                "psr/log": "~1.0",
+                "symfony/polyfill-php80": "^1.15"
             },
             "conflict": {
                 "symfony/http-kernel": "<3.4"
@@ -2566,7 +2580,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2582,26 +2596,41 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2019-11-28T13:33:56+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-08-10T07:47:39+00:00"
         },
         {
             "name": "symfony/error-handler",
-            "version": "v4.4.1",
+            "version": "v4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/error-handler.git",
-                "reference": "a1ad02d62789efed1d2b2796f1c15e0c6a00fc3b"
+                "reference": "2434fb32851f252e4f27691eee0b77c16198db62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/error-handler/zipball/a1ad02d62789efed1d2b2796f1c15e0c6a00fc3b",
-                "reference": "a1ad02d62789efed1d2b2796f1c15e0c6a00fc3b",
+                "url": "https://api.github.com/repos/symfony/error-handler/zipball/2434fb32851f252e4f27691eee0b77c16198db62",
+                "reference": "2434fb32851f252e4f27691eee0b77c16198db62",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
+                "php": ">=7.1.3",
                 "psr/log": "~1.0",
-                "symfony/debug": "^4.4",
+                "symfony/debug": "^4.4.5",
+                "symfony/polyfill-php80": "^1.15",
                 "symfony/var-dumper": "^4.4|^5.0"
             },
             "require-dev": {
@@ -2622,7 +2651,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2638,24 +2667,38 @@
             ],
             "description": "Symfony ErrorHandler Component",
             "homepage": "https://symfony.com",
-            "time": "2019-12-01T08:46:01+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-08-17T09:56:45+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v4.4.1",
+            "version": "v4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "b3c3068a72623287550fe20b84a2b01dcba2686f"
+                "reference": "3e8ea5ccddd00556b86d69d42f99f1061a704030"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/event-dispatcher/zipball/b3c3068a72623287550fe20b84a2b01dcba2686f",
-                "reference": "b3c3068a72623287550fe20b84a2b01dcba2686f",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/3e8ea5ccddd00556b86d69d42f99f1061a704030",
+                "reference": "3e8ea5ccddd00556b86d69d42f99f1061a704030",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
+                "php": ">=7.1.3",
                 "symfony/event-dispatcher-contracts": "^1.1"
             },
             "conflict": {
@@ -2692,7 +2735,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2708,24 +2751,38 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2019-11-28T13:33:56+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-08-13T14:18:44+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
-            "version": "v1.1.7",
+            "version": "v1.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher-contracts.git",
-                "reference": "c43ab685673fb6c8d84220c77897b1d6cdbe1d18"
+                "reference": "84e23fdcd2517bf37aecbd16967e83f0caee25a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/c43ab685673fb6c8d84220c77897b1d6cdbe1d18",
-                "reference": "c43ab685673fb6c8d84220c77897b1d6cdbe1d18",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/84e23fdcd2517bf37aecbd16967e83f0caee25a7",
+                "reference": "84e23fdcd2517bf37aecbd16967e83f0caee25a7",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3"
+                "php": ">=7.1.3"
             },
             "suggest": {
                 "psr/event-dispatcher": "",
@@ -2735,6 +2792,10 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.1-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -2766,7 +2827,21 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2019-09-17T09:54:03+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-06T13:19:58+00:00"
         },
         {
             "name": "symfony/finder",
@@ -2778,7 +2853,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/finder/zipball/ce8743441da64c41e2a667b8eb66070444ed911e",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/ce8743441da64c41e2a667b8eb66070444ed911e",
                 "reference": "ce8743441da64c41e2a667b8eb66070444ed911e",
                 "shasum": ""
             },
@@ -2799,7 +2874,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2819,20 +2894,20 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v4.4.1",
+            "version": "v4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "8bccc59e61b41963d14c3dbdb23181e5c932a1d5"
+                "reference": "e3e5a62a6631a461954d471e7206e3750dbe8ee1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/http-foundation/zipball/8bccc59e61b41963d14c3dbdb23181e5c932a1d5",
-                "reference": "8bccc59e61b41963d14c3dbdb23181e5c932a1d5",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/e3e5a62a6631a461954d471e7206e3750dbe8ee1",
+                "reference": "e3e5a62a6631a461954d471e7206e3750dbe8ee1",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
+                "php": ">=7.1.3",
                 "symfony/mime": "^4.3|^5.0",
                 "symfony/polyfill-mbstring": "~1.1"
             },
@@ -2854,7 +2929,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2870,30 +2945,45 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-11-28T13:33:56+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-08-17T07:39:58+00:00"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v4.4.1",
+            "version": "v4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "e4187780ed26129ee86d5234afbebf085e144f88"
+                "reference": "2bb7b90ecdc79813c0bf237b7ff20e79062b5188"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/http-kernel/zipball/e4187780ed26129ee86d5234afbebf085e144f88",
-                "reference": "e4187780ed26129ee86d5234afbebf085e144f88",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/2bb7b90ecdc79813c0bf237b7ff20e79062b5188",
+                "reference": "2bb7b90ecdc79813c0bf237b7ff20e79062b5188",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
+                "php": ">=7.1.3",
                 "psr/log": "~1.0",
                 "symfony/error-handler": "^4.4",
                 "symfony/event-dispatcher": "^4.4",
                 "symfony/http-foundation": "^4.4|^5.0",
                 "symfony/polyfill-ctype": "^1.8",
-                "symfony/polyfill-php73": "^1.9"
+                "symfony/polyfill-php73": "^1.9",
+                "symfony/polyfill-php80": "^1.15"
             },
             "conflict": {
                 "symfony/browser-kit": "<4.3",
@@ -2944,7 +3034,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2960,26 +3050,41 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2019-12-01T14:06:38+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-09-02T08:09:29+00:00"
         },
         {
             "name": "symfony/mime",
-            "version": "v5.0.1",
+            "version": "v5.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "0e6a4ced216e49d457eddcefb61132173a876d79"
+                "reference": "89a2c9b4cb7b5aa516cf55f5194c384f444c81dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/mime/zipball/0e6a4ced216e49d457eddcefb61132173a876d79",
-                "reference": "0e6a4ced216e49d457eddcefb61132173a876d79",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/89a2c9b4cb7b5aa516cf55f5194c384f444c81dc",
+                "reference": "89a2c9b4cb7b5aa516cf55f5194c384f444c81dc",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2.5",
+                "php": ">=7.2.5",
                 "symfony/polyfill-intl-idn": "^1.10",
-                "symfony/polyfill-mbstring": "^1.0"
+                "symfony/polyfill-mbstring": "^1.0",
+                "symfony/polyfill-php80": "^1.15"
             },
             "conflict": {
                 "symfony/mailer": "<4.4"
@@ -2991,7 +3096,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.0-dev"
+                    "dev-master": "5.1-dev"
                 }
             },
             "autoload": {
@@ -3002,7 +3107,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3022,20 +3127,34 @@
                 "mime",
                 "mime-type"
             ],
-            "time": "2019-11-30T14:12:50+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-08-17T10:01:29+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.13.1",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3"
+                "reference": "1c302646f6efc070cd46856e600e5e0684d6b454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/polyfill-ctype/zipball/f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
-                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/1c302646f6efc070cd46856e600e5e0684d6b454",
+                "reference": "1c302646f6efc070cd46856e600e5e0684d6b454",
                 "shasum": ""
             },
             "require": {
@@ -3047,7 +3166,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.13-dev"
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -3058,7 +3181,7 @@
                     "bootstrap.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3080,7 +3203,21 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2019-11-27T13:56:44+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-iconv",
@@ -3092,7 +3229,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/polyfill-iconv/zipball/a019efccc03f1a335af6b4f20c30f5ea8060be36",
+                "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/a019efccc03f1a335af6b4f20c30f5ea8060be36",
                 "reference": "a019efccc03f1a335af6b4f20c30f5ea8060be36",
                 "shasum": ""
             },
@@ -3116,7 +3253,7 @@
                     "bootstrap.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3143,22 +3280,23 @@
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.13.1",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "6f9c239e61e1b0c9229a28ff89a812dc449c3d46"
+                "reference": "5dcab1bc7146cf8c1beaa4502a3d9be344334251"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/polyfill-intl-idn/zipball/6f9c239e61e1b0c9229a28ff89a812dc449c3d46",
-                "reference": "6f9c239e61e1b0c9229a28ff89a812dc449c3d46",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/5dcab1bc7146cf8c1beaa4502a3d9be344334251",
+                "reference": "5dcab1bc7146cf8c1beaa4502a3d9be344334251",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "symfony/polyfill-mbstring": "^1.3",
-                "symfony/polyfill-php72": "^1.9"
+                "symfony/polyfill-intl-normalizer": "^1.10",
+                "symfony/polyfill-php70": "^1.10",
+                "symfony/polyfill-php72": "^1.10"
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -3166,7 +3304,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.13-dev"
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -3177,7 +3319,7 @@
                     "bootstrap.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3185,6 +3327,10 @@
                 {
                     "name": "Laurent Bassin",
                     "email": "laurent@bassin.info"
+                },
+                {
+                    "name": "Trevor Rowbotham",
+                    "email": "trevor.rowbotham@pm.me"
                 },
                 {
                     "name": "Symfony Community",
@@ -3201,20 +3347,115 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-11-27T13:56:44+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-08-04T06:02:08+00:00"
         },
         {
-            "name": "symfony/polyfill-mbstring",
-            "version": "v1.13.1",
+            "name": "symfony/polyfill-intl-normalizer",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f"
+                "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
+                "reference": "37078a8dd4a2a1e9ab0231af7c6cb671b2ed5a7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/polyfill-mbstring/zipball/7b4aab9743c30be783b73de055d24a39cf4b954f",
-                "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/37078a8dd4a2a1e9ab0231af7c6cb671b2ed5a7e",
+                "reference": "37078a8dd4a2a1e9ab0231af7c6cb671b2ed5a7e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-intl": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for intl's Normalizer class and related functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "intl",
+                "normalizer",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.18.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "a6977d63bf9a0ad4c65cd352709e230876f9904a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/a6977d63bf9a0ad4c65cd352709e230876f9904a",
+                "reference": "a6977d63bf9a0ad4c65cd352709e230876f9904a",
                 "shasum": ""
             },
             "require": {
@@ -3226,7 +3467,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.13-dev"
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -3237,7 +3482,7 @@
                     "bootstrap.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3260,7 +3505,21 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-11-27T14:18:11+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
@@ -3272,7 +3531,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/polyfill-php56/zipball/53dd1cdf3cb986893ccf2b96665b25b3abb384f4",
+                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/53dd1cdf3cb986893ccf2b96665b25b3abb384f4",
                 "reference": "53dd1cdf3cb986893ccf2b96665b25b3abb384f4",
                 "shasum": ""
             },
@@ -3294,7 +3553,7 @@
                     "bootstrap.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3319,17 +3578,94 @@
             "time": "2019-11-27T13:56:44+00:00"
         },
         {
-            "name": "symfony/polyfill-php72",
-            "version": "v1.13.1",
+            "name": "symfony/polyfill-php70",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "66fea50f6cb37a35eea048d75a7d99a45b586038"
+                "url": "https://github.com/symfony/polyfill-php70.git",
+                "reference": "0dd93f2c578bdc9c72697eaa5f1dd25644e618d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/polyfill-php72/zipball/66fea50f6cb37a35eea048d75a7d99a45b586038",
-                "reference": "66fea50f6cb37a35eea048d75a7d99a45b586038",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/0dd93f2c578bdc9c72697eaa5f1dd25644e618d3",
+                "reference": "0dd93f2c578bdc9c72697eaa5f1dd25644e618d3",
+                "shasum": ""
+            },
+            "require": {
+                "paragonie/random_compat": "~1.0|~2.0|~9.99",
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php70\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php72",
+            "version": "v1.18.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php72.git",
+                "reference": "639447d008615574653fb3bc60d1986d7172eaae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/639447d008615574653fb3bc60d1986d7172eaae",
+                "reference": "639447d008615574653fb3bc60d1986d7172eaae",
                 "shasum": ""
             },
             "require": {
@@ -3338,7 +3674,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.13-dev"
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -3349,7 +3689,7 @@
                     "bootstrap.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3371,20 +3711,34 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-11-27T13:56:44+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.13.1",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "4b0e2222c55a25b4541305a053013d5647d3a25f"
+                "reference": "fffa1a52a023e782cdcc221d781fe1ec8f87fcca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/polyfill-php73/zipball/4b0e2222c55a25b4541305a053013d5647d3a25f",
-                "reference": "4b0e2222c55a25b4541305a053013d5647d3a25f",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/fffa1a52a023e782cdcc221d781fe1ec8f87fcca",
+                "reference": "fffa1a52a023e782cdcc221d781fe1ec8f87fcca",
                 "shasum": ""
             },
             "require": {
@@ -3393,7 +3747,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.13-dev"
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -3407,7 +3765,7 @@
                     "Resources/stubs"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3429,7 +3787,101 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-11-27T16:25:15+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "version": "v1.18.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php80.git",
+                "reference": "d87d5766cbf48d72388a9f6b85f280c8ad51f981"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/d87d5766cbf48d72388a9f6b85f280c8ad51f981",
+                "reference": "d87d5766cbf48d72388a9f6b85f280c8ad51f981",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-util",
@@ -3441,7 +3893,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/polyfill-util/zipball/964a67f293b66b95883a5ed918a65354fcd2258f",
+                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/964a67f293b66b95883a5ed918a65354fcd2258f",
                 "reference": "964a67f293b66b95883a5ed918a65354fcd2258f",
                 "shasum": ""
             },
@@ -3459,7 +3911,7 @@
                     "Symfony\\Polyfill\\Util\\": ""
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3493,7 +3945,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/process/zipball/51c0135ef3f44c5803b33dc60e96bf4f77752726",
+                "url": "https://api.github.com/repos/symfony/process/zipball/51c0135ef3f44c5803b33dc60e96bf4f77752726",
                 "reference": "51c0135ef3f44c5803b33dc60e96bf4f77752726",
                 "shasum": ""
             },
@@ -3514,7 +3966,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3542,7 +3994,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/routing/zipball/51f3f20ad29329a0bdf5c0e2f722d3764b065273",
+                "url": "https://api.github.com/repos/symfony/routing/zipball/51f3f20ad29329a0bdf5c0e2f722d3764b065273",
                 "reference": "51f3f20ad29329a0bdf5c0e2f722d3764b065273",
                 "shasum": ""
             },
@@ -3584,7 +4036,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3618,7 +4070,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/service-contracts/zipball/144c5e51266b281231e947b51223ba14acf1a749",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/144c5e51266b281231e947b51223ba14acf1a749",
                 "reference": "144c5e51266b281231e947b51223ba14acf1a749",
                 "shasum": ""
             },
@@ -3640,7 +4092,7 @@
                     "Symfony\\Contracts\\Service\\": ""
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3676,7 +4128,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/translation/zipball/897fb68ee7933372517b551d6f08c6d4bb0b8c40",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/897fb68ee7933372517b551d6f08c6d4bb0b8c40",
                 "reference": "897fb68ee7933372517b551d6f08c6d4bb0b8c40",
                 "shasum": ""
             },
@@ -3724,7 +4176,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3752,7 +4204,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/translation-contracts/zipball/8cc682ac458d75557203b2f2f14b0b92e1c744ed",
+                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/8cc682ac458d75557203b2f2f14b0b92e1c744ed",
                 "reference": "8cc682ac458d75557203b2f2f14b0b92e1c744ed",
                 "shasum": ""
             },
@@ -3773,7 +4225,7 @@
                     "Symfony\\Contracts\\Translation\\": ""
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3801,22 +4253,23 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v4.4.1",
+            "version": "v4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "0a89a1dbbedd9fb2cfb2336556dec8305273c19a"
+                "reference": "1bef32329f3166486ab7cb88599cae4875632b99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/symfony/var-dumper/zipball/0a89a1dbbedd9fb2cfb2336556dec8305273c19a",
-                "reference": "0a89a1dbbedd9fb2cfb2336556dec8305273c19a",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/1bef32329f3166486ab7cb88599cae4875632b99",
+                "reference": "1bef32329f3166486ab7cb88599cae4875632b99",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
+                "php": ">=7.1.3",
                 "symfony/polyfill-mbstring": "~1.0",
-                "symfony/polyfill-php72": "~1.5"
+                "symfony/polyfill-php72": "~1.5",
+                "symfony/polyfill-php80": "^1.15"
             },
             "conflict": {
                 "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0",
@@ -3853,7 +4306,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3873,7 +4326,21 @@
                 "debug",
                 "dump"
             ],
-            "time": "2019-11-28T13:33:56+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-08-17T07:31:35+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -3934,7 +4401,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/tymondesigns/jwt-auth/zipball/103739700dc0358039a33b5bc91247570bb83529",
+                "url": "https://api.github.com/repos/tymondesigns/jwt-auth/zipball/103739700dc0358039a33b5bc91247570bb83529",
                 "reference": "103739700dc0358039a33b5bc91247570bb83529",
                 "shasum": ""
             },
@@ -3976,7 +4443,7 @@
                     "Tymon\\JWTAuth\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -4068,7 +4535,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/barryvdh/laravel-debugbar/zipball/18208d64897ab732f6c04a19b319fe8f1d57a9c0",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/18208d64897ab732f6c04a19b319fe8f1d57a9c0",
                 "reference": "18208d64897ab732f6c04a19b319fe8f1d57a9c0",
                 "shasum": ""
             },
@@ -4106,7 +4573,7 @@
                     "src/helpers.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -4192,7 +4659,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/facade/flare-client-php/zipball/0fd0c0a5c75a5acf04578311a08a7832e06a981c",
+                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/0fd0c0a5c75a5acf04578311a08a7832e06a981c",
                 "reference": "0fd0c0a5c75a5acf04578311a08a7832e06a981c",
                 "shasum": ""
             },
@@ -4222,7 +4689,7 @@
                     "src/helpers.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -4246,7 +4713,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/facade/ignition/zipball/1d2103aefecc9c4e6975bcc77fc5eceb330adb33",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/1d2103aefecc9c4e6975bcc77fc5eceb330adb33",
                 "reference": "1d2103aefecc9c4e6975bcc77fc5eceb330adb33",
                 "shasum": ""
             },
@@ -4293,7 +4760,7 @@
                     "src/helpers.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -4518,7 +4985,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/laravel/ui/zipball/57e2361b55ed1bc80ff0b3258b9713626fb38a2b",
+                "url": "https://api.github.com/repos/laravel/ui/zipball/57e2361b55ed1bc80ff0b3258b9713626fb38a2b",
                 "reference": "57e2361b55ed1bc80ff0b3258b9713626fb38a2b",
                 "shasum": ""
             },
@@ -4548,7 +5015,7 @@
                     "Laravel\\Ui\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -4575,7 +5042,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/maximebf/php-debugbar/zipball/6c4277f6117e4864966c9cb58fb835cee8c74a1e",
+                "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/6c4277f6117e4864966c9cb58fb835cee8c74a1e",
                 "reference": "6c4277f6117e4864966c9cb58fb835cee8c74a1e",
                 "shasum": ""
             },
@@ -4603,7 +5070,7 @@
                     "DebugBar\\": "src/DebugBar/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -4636,7 +5103,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/mockery/mockery/zipball/5571962a4f733fbb57bede39778f71647fae8e66",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/5571962a4f733fbb57bede39778f71647fae8e66",
                 "reference": "5571962a4f733fbb57bede39778f71647fae8e66",
                 "shasum": ""
             },
@@ -4660,7 +5127,7 @@
                     "Mockery": "library/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -5129,7 +5596,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/sebastianbergmann/php-code-coverage/zipball/f1884187926fbb755a9aaf0b3836ad3165b478bf",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/f1884187926fbb755a9aaf0b3836ad3165b478bf",
                 "reference": "f1884187926fbb755a9aaf0b3836ad3165b478bf",
                 "shasum": ""
             },
@@ -5162,7 +5629,7 @@
                     "src/"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -5369,6 +5836,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2019-09-17T06:23:10+00:00"
         },
         {
@@ -5696,7 +6164,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/sebastianbergmann/environment/zipball/464c90d7bdf5ad4e8a6aea15c091fec0603d4368",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/464c90d7bdf5ad4e8a6aea15c091fec0603d4368",
                 "reference": "464c90d7bdf5ad4e8a6aea15c091fec0603d4368",
                 "shasum": ""
             },
@@ -5720,7 +6188,7 @@
                     "src/"
                 ]
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -6186,7 +6654,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github-api-proxy.cnpkg.org/repos/webmozart/assert/zipball/573381c0a64f155a0d9a23f4b0c797194805b925",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/573381c0a64f155a0d9a23f4b0c797194805b925",
                 "reference": "573381c0a64f155a0d9a23f4b0c797194805b925",
                 "shasum": ""
             },
@@ -6206,7 +6674,7 @@
                     "Webmozart\\Assert\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6233,5 +6701,6 @@
     "platform": {
         "php": "^7.2"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
